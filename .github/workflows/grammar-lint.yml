@@ -6,10 +6,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
-      uses: actions/checkout@master
+      uses: actions/checkout@61b9e3751b92087fd0b06925ba6dd6314e06f089 # master
 
     - name: Vale
-      uses: errata-ai/vale-action@master
+      uses: errata-ai/vale-action@ff9447943c1cad0f45649b630e29112511f80e5a # master
       with:
         # Optional
         # styles: |
